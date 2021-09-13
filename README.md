@@ -105,5 +105,5 @@ you can do to help clarify your current misunderstandings?
 
 **Next**: We will be begin working with the `{tidyverse}` (a package of
 packages). Specifically, we will begin with functions from the `{dplyr}`
-package. Activity 5 will focus on isolating rows and columns of
+package. Activity 4 will focus on isolating rows and columns of
 datasets.
