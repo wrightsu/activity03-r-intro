@@ -160,7 +160,10 @@ Comment on what you noticed about the activity as a whole.
 
 
 
-Push your updated report to your `<username>` branch - you are done with this `.Rmd` file and can go back to the README directions while you wait for you Team Members.
+Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
+Go to GitHub and verify that your `activity03-r-intro.Rmd` file appears as you intended it to.
+
+You can now go back to the `README` file.
 
 
 ## Attribution
