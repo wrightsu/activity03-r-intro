@@ -12,15 +12,11 @@ In this activity, you will:
 ## ☑️ Task 1: The Workflow
 
 Remember to take these steps slowly, help each other out, and get a hold
-of your instructor when you have questions or issues. These directions
-have been slightly modified from Activity 2 and I am hopeful that these
-are our typical workflow.
+of your instructor when you have questions or issues.
 
 **You may need your PAT that you created in Preparation 2**. If you
-misplaced this token, you will need to create a new one, then follow the
-steps in [Activity
-2](https://github.com/gvsu-sta518/activity02-ggplot2-intro#%EF%B8%8F-task-1-the-workflow)
-to store your credentials in RStudio.
+misplaced this token, you will need to create a new one prior to
+beginning these steps.
 
 1.  In this GitHub repo, click on the ![fork](README-img/fork-icon.png)
     **Fork** icon near the upper-right-hand corner. You should be taken
@@ -42,7 +38,7 @@ to store your credentials in RStudio.
 
 4.  Create a new Project. You can do this by clicking on the
     <img src="README-img/new-project-icon.png" alt="new project" width = "20"/>
-    icon or through the menus (File &gt; New Project…).
+    icon or through the menus (File > New Project…).
 
 -   In the *New Project Wizard* pop-up, select **Version Control** on
     the *Create Project* screen, then select **Git** on the *Create

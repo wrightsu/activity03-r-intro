@@ -87,7 +87,8 @@ Comment on what you noticed about the errors and how you used this information t
 
 
 
-![](README-img/noun_pause.png) **Planned Pause Point**: If things made sense, feel free to continue on while you wait. Otherwise, contact your instructor to have them verify your work.
+
+<img src="README-img/noun_pause.png" alt="pause" width = "20"/> <b>Planned Pause Point</b>: If you feel that you have a good understanding of these Base R commands, feel free to start working on your project. The remainder of this activity will help to expand these Base R commands and I will post a solution on Blackboard by the end of class.
 
 
 ### Decoding the secret message.
@@ -108,7 +109,7 @@ Write your own code to complete the steps below.
 
 1. Add 14 to every number.
 2. Multiply every number by 18, then subtract 257.
-3. Exponentiate every number.  (That is, do e ^ [each number]. You may need to Google how to this!)
+3. Exponentiate every number.  (You may need to Google how to this in R!)
 4. Square every number.
 
 ```{r}
