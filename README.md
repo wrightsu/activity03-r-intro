@@ -21,7 +21,7 @@ beginning these steps.
 1.  In this GitHub repo, click on the ![fork](README-img/fork-icon.png)
     **Fork** icon near the upper-right-hand corner. You should be taken
     a copy of this repo that is in your GitHub account - your page title
-    should be `{username}/activity03-r-intro`, where `{username}` is
+    should be `username/activity03-r-intro`, where `username` is
     replaced with your GitHub username.
 2.  Click on the green **Code** button.
 
@@ -45,7 +45,7 @@ beginning these steps.
     Project from Version Control* screen.
 -   On the *Clone Git Repository* screen, paste the HTTPS information
     from (2) into the *Repository URL* dialog box. It should look like:
-    `https://github.com/<username>/activity03-r-intro.git`
+    `https://github.com/username/activity03-r-intro.git`
 -   The *Project directory name* dialog box should automatically
     populate with your repository name, but sometimes Macs have an issue
     with this (if so, click into this box and press the ![command

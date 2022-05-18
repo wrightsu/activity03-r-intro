@@ -87,7 +87,7 @@ different columns. If we look in the **Environment** pane, we can see
 that `my_symbols` has rows 1 through 26 and columns 1 through 3 (so it
 is a matrix - type `class(my_symbols)` in the **Console** to verify). We
 wanted a vector, not a matrix so `cbind` is not the right function to
-use here. To make a vector in R, we use the `c` function (i.e., "combine
+use here. To make a vector in R, we use the `c` function (i.e., “combine
 values into a vector or list).
 
 Turn the `my_symbols` vector into a data frame, with the variable name
@@ -162,15 +162,11 @@ a vector. There are no errors here.
 top_secret <- readr::read_csv("data/secret_code.csv", col_names = FALSE)
 ```
 
-    ## Rows: 1255 Columns: 1
-
-    ## -- Column specification --------------------------------------------------------
-    ## Delimiter: ","
-    ## dbl (1): X1
-
     ## 
-    ## i Use `spec()` to retrieve the full column specification for this data.
-    ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
+    ## -- Column specification --------------------------------------------------------
+    ## cols(
+    ##   X1 = col_double()
+    ## )
 
 ``` r
 # Pick off only the column X1
