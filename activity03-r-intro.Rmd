@@ -1,6 +1,6 @@
 ---
 title: "Activity 3"
-author: "Team Name"
+author: "Summer"
 output: github_document
 ---
 
@@ -31,61 +31,59 @@ Create three vectors that contain: 1) the lower case letters, 2) the lower case 
 ```{r}
 lower_case <- c("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
 
-upper_case <- c("A", "B", "C", "D", "E", "F", "G", "H" "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
+upper_case <- c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z")
 
-punctuation <- c(".", ",", "!", "?", "'", """, "(", ")", " ", "-", ";", ":")
+punctuation <- c(".", ",", "!", "?", "'", ",", "(",")", "-", ";", ":")
 ```
 
 Comment on what you noticed about the errors and how you used this information to correct the issues.
 
-**Response**:
+**Response**: A quotation mark can't be used at all except as part of the coding language. I was surprised becaue it looks like parentheses around a comma will exempt the comma from being read as code, but when I tried that for the parenthesis, no dice. 
 
 
 Make one long vector containing all the symbols.
 
 ```{r}
-my_symbols <- cbind(lower_case, upper_case, punctuation)
+my_symbols <- c(lower_case, upper_case, punctuation)
 ```
 
 Comment on what you noticed about the errors and how you used this information to correct the issues.
 
-**Response**:
+**Response**: Uhhh.. there is a problem with the third list. When I look at it, it's only 11 items long instead of 26 like the other two. I didn't realize it wouldn't just run the data frame anyway, so that's interesting. I tried to run it with just the two, but bubkis. Clearly I'm missing something. Oh, yeah, "c" is for vectors, not "cbind".
 
 
 Turn the `my_symbols` vector into a data frame, with the variable name "Symbol".
 
 ```{r}
-my_symbols <- dataframe(my_symbols)
-names(my_symbols) = Symbol
+my_symbols <- data.frame(my_symbols)
+names(my_symbols) = "Symbol"
 ```
 
 Comment on what you noticed about the errors and how you used this information to correct the issues.
 
-**Response**:
+**Response**: It was easy to spot the missing . in dataframes. Took me a minute to realize Symbols needed quotation marks around it.
 
 
 Find the total number of symbols we have in our data frame.  
 
 ```{r}
-len <- length(my_symbols)
+len <- nrow(my_symbols)
 ```
 
 Comment on what you noticed about the errors and how you used this information to correct the issues.
 
-**Response**:
+**Response**: ?length didn't give me anything about data frames, so I was lost. Looked at the comment. How the heck was I supposed to know about nrow? It wasn't in the primer or the textbook! Grrrr...
 
 
 5. Create a new variable in your dataframe that assigns a number to each symbol.
 
 ```{r}
-my_symbols%Num <- 1:len
+my_symbols$Num <- 1:len
 ```
 
 Comment on what you noticed about the errors and how you used this information to correct the issues.
 
-**Response**:
-
-
+**Response**:Magic red squiggle says no % allowed. The only one I've seen is the $ so I tried that.
 
 
 <img src="README-img/noun_pause.png" alt="pause" width = "20"/> <b>Planned Pause Point</b>: If you feel that you have a good understanding of these Base R commands, feel free to start working on your project. The remainder of this activity will help to expand these Base R commands and I will post a solution on Blackboard by the end of class.
@@ -113,7 +111,7 @@ Write your own code to complete the steps below.
 4. Square every number.
 
 ```{r}
-
+sum(top_secret < 17)
 ```
 
 **HQ UPDATE:** Headquarters has informed you that at this stage of decoding, there should be 496 numbers in the secret message that are below 17.
@@ -126,7 +124,7 @@ Write your own code to complete the steps below.
 10. Turn your matrix back into a vector.
 
 ```{r}
-
+length(500:length(top_secret))
 ```
 
 **HQ UPDATE:** Headquarters has informed you that at this stage of decoding, all numbers in indices 500 and beyond are below 100.
@@ -136,7 +134,7 @@ Write your own code to complete the steps below.
 13. Replace all instances of the number 39 with 20.
 
 ```{r}
-
+top_secret[top_secret == 39] <- 20
 ```
 
 **HQ UPDATE:** Headquarters has informed you that your final message should have 421 even numbers.
@@ -153,11 +151,11 @@ stringr::str_c(my_symbols$Symbol[top_secret], collapse = "")
 
 Google the first line of this message, if you do not recognize it, to see what it is.
 
-**delete this line and comment on what on the activity as a whole**
+[1] "Oh-yeah-In-France-a-skinny-man-died-of-a-big-disease-with-a-little-name-By-chance-his-girlfriend-came-across-a-needle-and-soon-she-did-the-same-At-home-there-are-seventeen;year;old-boys-and-their-idea-of-fun-Is-being-in-a-gang-called-The-Disciples,-high-on-crack,-totin'-a-machine-gun-Time-Time...
 
-Comment on what you noticed about the activity as a whole.
+**Response**: I ran this several times with increasing frustration until I read the whole activity more slowly and realized that the secret_code files was getting overwritten every time. No wonder my numbers kept being so off! I deleted and re-upload the file a couple times until I realized I could edit (copy/paste) directly into R. This took forever because, as I've said before, this process is the opposite of the way my brain works. I like to see the whole thing first, break down what it does, then build new. This way of seeing it broken into pieces first, then putting it together for something, takes me a long time to work through. 
 
-**Response**:
+
 
 
 
