@@ -153,10 +153,7 @@ Google the first line of this message, if you do not recognize it, to see what i
 
 [1] "Oh-yeah-In-France-a-skinny-man-died-of-a-big-disease-with-a-little-name-By-chance-his-girlfriend-came-across-a-needle-and-soon-she-did-the-same-At-home-there-are-seventeen;year;old-boys-and-their-idea-of-fun-Is-being-in-a-gang-called-The-Disciples,-high-on-crack,-totin'-a-machine-gun-Time-Time...
 
-**Response**: I ran this several times with increasing frustration until I read the whole activity more slowly and realized that the secret_code files was getting overwritten every time. No wonder my numbers kept being so off! I deleted and re-upload the file a couple times until I realized I could edit (copy/paste) directly into R. This took forever because, as I've said before, this process is the opposite of the way my brain works. I like to see the whole thing first, break down what it does, then build new. This way of seeing it broken into pieces first, then putting it together for something, takes me a long time to work through. 
-
-
-
+**Response**: I ran this several times with increasing frustration until I read the whole activity more slowly and realized that the secret_code files was getting overwritten every time. No wonder my numbers kept being so off! I deleted and re-upload the file a couple times until I realized I could edit (copy/paste) directly into R. This took forever because, as I've said before, this process is the opposite of the way my brain works. I like to see the whole thing first, break down what it does, then build new. This way of seeing it broken into pieces first, then putting it together for something, takes me a long time to work through. But I'm also learning it's just a big fancy calculator and that helps!
 
 
 Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.

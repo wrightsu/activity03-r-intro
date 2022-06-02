@@ -205,7 +205,8 @@ because, as I’ve said before, this process is the opposite of the way my
 brain works. I like to see the whole thing first, break down what it
 does, then build new. This way of seeing it broken into pieces first,
 then putting it together for something, takes me a long time to work
-through.
+through. But I’m also learning it’s just a big fancy calculator and that
+helps!
 
 Knit, then stage everything listed in your **Git** pane, commit (with a
 meaningful commit message), and push to your GitHub repo. Go to GitHub
